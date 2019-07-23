@@ -1,0 +1,383 @@
+/*title start*/
+.title-l {
+	width: 235px;
+	height: 440px;
+	padding-top: 20px;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	z-index: 2;
+}
+.title-l img {
+	border: 0;
+	padding-top: 12px;
+	padding-right: 10px;
+	width: 40px;
+	height: 40px;
+}
+.title-l li {
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	position: relative;
+}
+.title-l li i {
+	font: normal 900 20px "icomoon";
+	position: absolute;
+	top: 15px;
+	right: 23px;
+	color: #b0b0b0;
+}
+.title-l a {
+	display: block;
+	width: 235px;
+	padding-left: 30px;
+	color: #fff;
+	font-size: 14px;
+}
+.title-l li:hover {
+	background-color: #ff6700;
+}
+.title {
+	margin-bottom: 14px;
+	position: relative;
+	height: 460px;
+}
+.title-img img {
+	position: absolute;
+	width: 1226px;
+	height: 460px;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.title-img li {
+	display: none;
+}
+.title-img li:first-child {
+	display: block;
+}
+.arrow {
+	position: relative;
+	top: 0;
+	left: 235px;
+	width: 991px;
+	height: 460px;
+}
+.arrow-left,.arrow-right {
+      	font-family: "SimSun","宋体";
+      	width: 30px;
+      	height: 60px;
+      	background-color: rgba(0, 0, 0, 0.1);
+      	position: absolute;
+      	top: 50%;
+      	margin-top: -30px;
+      	cursor: pointer;
+      	text-align: center;
+      	line-height: 60px;
+      	color: #fff;
+      	font-weight: 700;
+      	font-size: 30px;
+      	z-index: 999;
+      }
+      .arrow-left {
+      	left: 0;
+      }
+      .arrow-right {
+      	right: 0;
+      }
+      .arrow-left:hover,
+      .arrow-right:hover {
+      	background-color: rgba(0, 0, 0, 0.5);
+      }
+.title-controls {
+	position: absolute;
+	right: 30px;
+	top: 420px;
+	z-index: 3;
+}
+.title-controls li {
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+	float: left;
+	border-radius: 50%;
+	border: 1.5px solid #9a9a9a;
+}
+.title-controls a {
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-color: #707070;
+	border-radius: 50%;
+}
+.title-controls li:first-child a {
+	background: rgba(255,255,255,0.4);
+}
+.title-controls a:hover {
+	background: rgba(255,255,255,0.4);
+}
+
+/*下级菜单*/
+.children-col-4 {
+	position: absolute;
+	display: none;
+	width: 991px;
+	height: 458px;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+	z-index: 99;
+}
+.children-1 {
+	top: -20px;
+	left: 235px;
+}
+.children-2 {
+	left: 235px;
+	top: -62px;
+}
+.children-3 {
+	left: 235px;
+	top: -104px;
+}
+.children-4 {
+	left: 235px;
+	top: -146px;
+	width: 774px;
+}
+.children-5 {
+	left: 235px;
+	top: -188px;
+	width: 497px;
+}
+.children-6 {
+	left: 235px;
+	top: -230px;
+	width: 250px;
+}
+.children-7 {
+	width: 774px;
+	left: 235px;
+	top: -272px;
+}
+.children-8 {
+	width: 497px;
+	left: 235px;
+	top: -314px;
+}
+.children-9 {
+	width: 250px;
+	left: 235px;
+	top: -356px;
+}
+.children-10 {
+	left: 235px;
+	top: -398px;
+}
+.children-col-4 ul {
+	padding: 2px 0;
+	float: left;
+	width: 247px;
+}
+.children-list-1 li, .children-list-2 li, .children-list-3 li, .children-list-4 li {
+	display: block;
+	height: 76px;
+	line-height: 76px;
+}
+.children-list-1 li a, .children-list-2 li a, .children-list-3 li a, .children-list-4 li a {
+	width: 247px;
+	display: block;
+	color: #333;
+	line-height: 64px;
+	padding: 12px  20px 0px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.children a:hover {
+	color: #ff6700;
+}
+.title-l li:hover .children-col-4 {
+	display: block;	
+}
+
+/*home-hero stare*/
+.home-hero {
+	height: 170px;
+}
+.home-chose {
+	width: 235px;
+	height: 170px;
+	background-color: #5f5750;
+}
+.home-chose li {
+	width: 76px;
+	height: 82px;
+	line-height: 82px;
+	float: left;
+	text-align: center;
+	padding-left: 2px;
+}
+.home-chose i {
+	display: block;
+	height: 24px;
+	font-size: 24px;
+}
+.home-chose a {
+	display: block;
+	width: 70px;
+	height: 64px;
+	font-family: "icomoon";
+	font-style: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,0.7);
+}
+.home-chose a:hover {
+	color: #fff;
+}
+.home-img li {
+	float: right;
+	margin-left: 14px;
+	transition: box-shadow 0.2s linear;
+}
+.home-img li:hover {
+	box-shadow: 0px 15px 18px 0px rgba(0, 0, 0, 0.1);
+}
+
+/*lightning deal start*/
+.lightning-deal {
+	margin-top: 30px;
+	height: 398px;
+	box-sizing: border-box;
+	position: relative;
+}
+.xm-controls {
+	position: absolute;
+	right: 0;
+	top: 22px;
+}
+.xm-controls a {
+	display: block;
+	float: left;
+	width: 36px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #e0e0e0;
+	text-align: center;
+	font: normal 900 22px "icomoon";
+}
+.lightning-deal-l, .lightning-deal-r {
+	float: left;
+}
+.lightning-deal h2 {
+	height: 58px;
+	line-height: 58px;
+	color: #333;
+	font-weight: 200;
+}
+.lightning-deal-l {
+	width: 235px;
+	height: 340px;
+	background-color: #f1eded;
+	border-top: 1px solid #e53934;
+}
+.lightning-deal-l h3 {
+	height: 46px;
+	line-height: 46px;
+	padding-top: 44px;
+	text-align: center;
+	font-size: 21px;
+	color: #ef3a3b;
+}
+.lightning-deal img {
+	display: block;
+	margin: 25px auto;
+	text-align: center;
+}
+.lightning-deal h4 {
+	font-size: 15px;
+	text-align: center;
+	color: rgba(0,0,0,0.54);
+	height: 22px;
+	line-height: 22px;
+}
+.countdown {
+	width: 168px;
+	margin: 28px auto 0;
+}
+.clearfix {
+}
+.countdown div {
+	float: left;
+}
+.countdown .box {
+	width: 46px;
+	height: 46px;
+	font-size: 24px;
+	line-height: 46px;
+	text-align: center;
+	background-color: #605751;
+	color: #fff;
+}
+.countdown .dosh {
+	width: 15px;
+	height: 46px;
+	font-size: 24px;
+	line-height: 46px;
+	text-align: center;
+}
+.lightning-deal-r {
+	width: 991px;
+	height: 340px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+.lightning-r {
+	width: 300%;
+	height: 340px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.lightning-r ul {
+	float: left;
+}
+.lightning-deal-r li {
+	width: 235px;
+	height: 339px;
+	float: left;
+	margin-left: 12px;
+	background-color: #fafafa;
+}
+.lightning-deal-r img {
+	padding-top: 39px;
+}
+.lightning-deal-r h3 {
+	width: 194px;
+	height: 21px;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 20px 3px;
+	color: #212121;
+}
+.lightning-deal-r p {
+	height: 18px;
+	margin: 0 20px 12px;
+	font-size: 12px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #b0b0b0;
+	text-align: center;
+}
+.lightning-deal-r p span {
+	color: #ff6709;
+}
+.purchase {
+	width: 1226px;
+	height: 124px;
+	margin: 44px auto;
+}
+
+
